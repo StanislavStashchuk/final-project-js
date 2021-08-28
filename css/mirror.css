@@ -1,4 +1,10 @@
-.mdf {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.mirror {
   background-color: #fae8d2;
   font-family: 'Nunito', sans-serif;
   overflow: hidden;
@@ -6,7 +12,7 @@
   position: relative;
 }
 
-.mdf-sidebar {
+.mirror-sidebar {
   position: fixed;
   top: 0;
   left: 0;
@@ -17,7 +23,7 @@
   transition: all .5s ease;
 }
 
-.mdf-sidebar .sidebar-content .sidebar-content__logo {
+.mirror-sidebar .sidebar-content .sidebar-content__logo {
   color: #f7efef;
   display: flex;
   height: 50px;
@@ -27,19 +33,19 @@
   pointer-events: none;
 }
 
-.mdf-sidebar .sidebar-content .sidebar-content__logo i {
+.mirror-sidebar .sidebar-content .sidebar-content__logo i {
   font-size: 40px;
   margin-right: 5px;
 }
 
-.mdf-sidebar .sidebar-content .sidebar-content__logo .logo-name {
+.mirror-sidebar .sidebar-content .sidebar-content__logo .logo-name {
   font-size: 22px;
 }
 
-.mdf-sidebar .sidebar-content #mdf-btn {
+.mirror-sidebar .sidebar-content #mirror-btn {
   position: absolute;
   color: #ffffff;
-  top: 2px;
+  top: 1px;
   left: 50%;
   top: 5px;
   font-size: 26px;
@@ -50,11 +56,11 @@
   transform: translateX(-50%);
 }
 
-.mdf-sidebar .sidebar__list-items {
+.mirror-sidebar .sidebar__list-items {
   margin-top: 20px;
 }
 
-.mdf-sidebar .sidebar__list-items li {
+.mirror-sidebar .sidebar__list-items li {
   position: relative;
   height: 50px;
   margin: 0 6px;
@@ -63,13 +69,13 @@
   line-height: 50px;
 }
 
-.mdf-sidebar .sidebar__list-items li:hover .tooltip {
+.mirror-sidebar .sidebar__list-items li:hover .tooltip {
   transition: all .5s ease;
   top: 50%;
   opacity: 1;
 }
 
-.mdf-sidebar .sidebar__list-items li a {
+.mirror-sidebar .sidebar__list-items li a {
   color: #f9f8ff;
   display: flex;
   align-items: center;
@@ -79,13 +85,13 @@
   white-space: nowrap;
 }
 
-.mdf-sidebar .sidebar__list-items li a .item-name {
+.mirror-sidebar .sidebar__list-items li a .item-name {
   opacity: 0;
   pointer-events: none;
   transition: all .5s ease;
 }
 
-.mdf-sidebar .sidebar__list-items li a i {
+.mirror-sidebar .sidebar__list-items li a i {
   height: 50px;
   min-width: 50px;
   border-radius: 12px;
@@ -94,19 +100,19 @@
   text-align: center;
 }
 
-.mdf-sidebar .sidebar__list-items li a:hover {
+.mirror-sidebar .sidebar__list-items li a:hover {
   color: #271616;
   background: #ececec;
 }
 
-.mdf-hero {
+.mirror-hero {
   position: absolute;
   height: 100%;
   width: calc(100% - 260px);
   left: 260px;
 }
 
-.mdf-hero .mdf-hero__h2 {
+.mirror-hero .mirror-hero__h2 {
   font-size: 30px;
   color: #856107;
   margin: 16px;
@@ -130,27 +136,27 @@
   display: block;
 }
 
-.active {
+.act {
   width: 260px;
 }
 
-.active .sidebar-content .sidebar-content__logo {
+.act .sidebar-content .sidebar-content__logo {
   opacity: 1;
   pointer-events: none;
   color: #f0d9d9;
 }
 
-.active .sidebar-content #mdf-btn {
+.act .sidebar-content #mirror-btn {
   left: 90%;
 }
 
-.active .sidebar__list-items li .a .item-name {
+.act .sidebar__list-items li .a .item-name {
   color: #f7efef;
   opacity: 1;
   pointer-events: auto;
 }
 
-.active .sidebar__list-items li .tooltip {
+.act .sidebar__list-items li .tooltip {
   display: none;
 }
-/*# sourceMappingURL=mdf.css.map */
+/*# sourceMappingURL=mirror.css.map */
