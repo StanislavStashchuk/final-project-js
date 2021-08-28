@@ -18,3 +18,110 @@
         }
     }
 }
+
+.sidebar {
+    height: 100%;
+    width: 77px;
+    background: #2c1b3a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 6px 14px;
+    transition: all .5s ease;
+    
+    .mdf-content {
+        
+        .mdf-content__logo {
+            color: #fff;
+            display: flex;
+            height: 50px;
+            width: 100%;
+            align-items: center;
+            opacity: 0;
+            pointer-events: none;
+            
+            i {
+                font-size: 28px;
+                margin-right: 4px;
+            }
+            
+            .logo-name {
+                font-size: 22px;
+            }
+        }
+        
+        #btn {
+            position: absolute;
+            color: #ffffff;
+            top: 1px;
+            left: 40%;
+            top: 5px;
+            font-size: 26px;
+            height: 50px;
+            width: 50px;
+            text-align: center;
+            line-height: 50px;
+            transform: translateX(-50%);
+        }
+    }
+
+    ul {
+        margin-top: 20px;
+        
+        li {
+            height: 50px;
+            width: 100%;
+            list-style: none;
+            position: relative;
+            margin: 0 5px;
+            line-height: 50px;
+
+            &:hover {
+                .tooltip {
+                    top: 15%;
+                    transition: all .5s ease;
+                    opacity: 1;
+                }
+            }
+
+            .tooltip {
+                position: absolute;
+                left: 122px;
+                top: 0;
+                transform: rotateY(-50%);
+                border-radius: 8px;
+                height: 35px;
+                width: 122px;
+                text-align: center;
+                background: #d3d3e9;
+                line-height: 35px;
+                box-shadow: 0 5px 10px rgba(255, 255, 255, 0.87);
+                transition: .9s;
+                opacity: 0;
+                pointer-events: none;
+            }
+
+            a {
+            color: #ffffff;
+            display: flex;
+            border-radius: 8px;
+            align-items: center;
+            text-decoration: none;
+            transition: all .4s ease;
+
+                &:hover {
+                    color: #2c1b3a;
+                    background: #fff;
+                }
+
+                i {
+                    height: 50px;
+                    min-width: 50px;
+                    border-radius: 12px;
+                    line-height: 50px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
