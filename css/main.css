@@ -150,9 +150,9 @@
   left: 90%;
 }
 
-.active .sidebar__list-items li .a .mdf-item-name {
+.active .sidebar__list-items li a .mdf-item-name {
   color: #740634;
-  opacity: .9;
+  opacity: 1;
   pointer-events: auto;
 }
 
@@ -318,9 +318,9 @@
   left: 90%;
 }
 
-.act .sidebar__list-items li .a .mirror-item-name {
+.act .sidebar__list-items li a .mirror-item-name {
   color: #740634;
-  opacity: .9;
+  opacity: 1;
   pointer-events: auto;
 }
 
