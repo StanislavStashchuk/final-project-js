@@ -12,9 +12,9 @@
   left: 0;
   height: 2450px;
   width: 78px;
-  background-color: #f3fccd;
   padding: 8px 14px;
   transition: all .5s ease;
+  background-color: #f3fccd;
   z-index: 100;
 }
 
