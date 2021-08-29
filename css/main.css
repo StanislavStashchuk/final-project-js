@@ -349,6 +349,58 @@
   margin: 16px;
 }
 
+.mirror-hero .mirror-hero__about {
+  width: 100%;
+  height: 550px;
+  background-color: #f3fccd;
+  border-radius: 22px;
+  position: relative;
+  margin: 20px auto;
+  right: 260px;
+}
+
+.mirror-hero .mirror-hero__about .mirror-hero__about-text {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mirror-hero .mirror-hero__about .mirror-hero__about-text h3 {
+  font-size: 38px;
+  color: #740634;
+}
+
+.mirror-hero .mirror-hero__about .mirror-hero__about-text p {
+  font-size: 30px;
+}
+
+.mirror-hero .mirror-hero__stuff {
+  width: 100%;
+  height: 550px;
+  background-color: #dbfcbc;
+  border-radius: 22px;
+  position: relative;
+  margin: 20px auto;
+  right: 260px;
+}
+
+.mirror-hero .mirror-hero__stuff .mirror-hero__stuff-text {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mirror-hero .mirror-hero__stuff .mirror-hero__stuff-text h3 {
+  font-size: 38px;
+  color: #740634;
+}
+
+.mirror-hero .mirror-hero__stuff .mirror-hero__stuff-text p {
+  font-size: 30px;
+}
+
 .mirror-tooltip {
   position: absolute;
   left: 122px;
@@ -391,6 +443,14 @@
   display: none;
 }
 
+.mirror {
+  background-color: #ffffff;
+  font-family: 'Nunito', sans-serif;
+  overflow: hidden;
+  width: 100%;
+  height: 2450px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -404,7 +464,7 @@ body {
 }
 
 .app {
-  width: 84%;
+  width: 82%;
   height: 100vh;
   overflow: hidden;
   box-shadow: 8px 4px 40px -25px #000000;
@@ -419,7 +479,7 @@ body {
 .app .box {
   flex: 1;
   height: 100%;
-  transition: .8s;
+  transition: .9s;
   background-position: center;
 }
 
