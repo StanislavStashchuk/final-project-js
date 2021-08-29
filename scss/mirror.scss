@@ -73,7 +73,7 @@
 
             &:hover {
 
-                .tooltip {
+                .mirror-tooltip {
                     transition: all .5s ease;
                     top: 50%;
                     opacity: 1;
@@ -89,7 +89,7 @@
                 border-radius: 8px;
                 white-space: nowrap;
 
-                .item-name {
+                .mirror-item-name {
                     opacity: 0;
                     pointer-events: none;
                     transition: all .5s ease;
@@ -126,7 +126,7 @@
     }
 }
 
-.tooltip {
+.mirror-tooltip {
     position: absolute;
     left: 122px;
     top: 0;
@@ -134,7 +134,7 @@
     border-radius: 6px;
     height: 35px;
     width: 122px;
-    background: #f7e5d7;
+    background: $primaryMirrorColor;
     line-height: 35px;
     text-align: center;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -152,7 +152,7 @@
         .sidebar-content__logo {
             opacity: 1;
             pointer-events: none;
-            color: #f0d9d9;
+            color: $sidebarIconsColor;
         }
 
         #mirror-btn {
@@ -166,14 +166,14 @@
 
             .a {
 
-                .item-name {
+                .mirror-item-name {
                     color: #f7efef;
                     opacity: 1;
                     pointer-events: auto;
                 }
             }
 
-            .tooltip {
+            .mirror-tooltip {
                 display: none;
             }
         }

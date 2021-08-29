@@ -69,7 +69,7 @@
   line-height: 50px;
 }
 
-.mirror-sidebar .sidebar__list-items li:hover .tooltip {
+.mirror-sidebar .sidebar__list-items li:hover .mirror-tooltip {
   transition: all .5s ease;
   top: 50%;
   opacity: 1;
@@ -85,7 +85,7 @@
   white-space: nowrap;
 }
 
-.mirror-sidebar .sidebar__list-items li a .item-name {
+.mirror-sidebar .sidebar__list-items li a .mirror-item-name {
   opacity: 0;
   pointer-events: none;
   transition: all .5s ease;
@@ -118,7 +118,7 @@
   margin: 16px;
 }
 
-.tooltip {
+.mirror-tooltip {
   position: absolute;
   left: 122px;
   top: 0;
@@ -126,7 +126,7 @@
   border-radius: 6px;
   height: 35px;
   width: 122px;
-  background: #f7e5d7;
+  background: #dbfcbc;
   line-height: 35px;
   text-align: center;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -143,20 +143,20 @@
 .act .sidebar-content .sidebar-content__logo {
   opacity: 1;
   pointer-events: none;
-  color: #f0d9d9;
+  color: #740634;
 }
 
 .act .sidebar-content #mirror-btn {
   left: 90%;
 }
 
-.act .sidebar__list-items li .a .item-name {
+.act .sidebar__list-items li .a .mirror-item-name {
   color: #f7efef;
   opacity: 1;
   pointer-events: auto;
 }
 
-.act .sidebar__list-items li .tooltip {
+.act .sidebar__list-items li .mirror-tooltip {
   display: none;
 }
 /*# sourceMappingURL=mirror.css.map */
