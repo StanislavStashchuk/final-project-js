@@ -3,7 +3,7 @@
   font-family: 'Nunito', sans-serif;
   overflow: hidden;
   width: 100%;
-  height: 2450px;
+  height: 2650px;
 }
 
 .mirror-sidebar {
@@ -104,7 +104,7 @@
 
 .mirror-hero {
   position: relative;
-  height: 100%;
+  height: 1320px;
   width: calc(100% - 260px);
   left: 260px;
   top: 0;
@@ -121,12 +121,12 @@
 
 .mirror-hero .mirror-hero__about {
   width: 100%;
-  height: 550px;
-  background-color: #f3fccd;
-  border-radius: 22px;
+  height: 600px;
   position: relative;
+  border-radius: 22px;
   margin: 20px auto;
   right: 260px;
+  background-color: #dbfcbc;
 }
 
 .mirror-hero .mirror-hero__about .mirror-hero__about-text {
@@ -147,12 +147,12 @@
 
 .mirror-hero .mirror-hero__stuff {
   width: 100%;
-  height: 550px;
-  background-color: #dbfcbc;
+  height: 600px;
   border-radius: 22px;
   position: relative;
   margin: 20px auto;
   right: 260px;
+  background-color: #e5e09b;
 }
 
 .mirror-hero .mirror-hero__stuff .mirror-hero__stuff-text {
@@ -169,6 +169,21 @@
 
 .mirror-hero .mirror-hero__stuff .mirror-hero__stuff-text p {
   font-size: 30px;
+}
+
+.mirror-gallary {
+  width: calc(100% - 260px);
+  height: 600px;
+  margin: 20px 0 20px 0;
+  right: 330px;
+  border-radius: 22px;
+  text-align: center;
+  background-color: #a7baee;
+}
+
+.mirror-gallary h3 {
+  font-size: 38px;
+  color: #740634;
 }
 
 .mirror-tooltip {
