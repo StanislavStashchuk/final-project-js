@@ -83,6 +83,59 @@
     }
 }
 
+.mirror-tooltip {
+    position: absolute;
+    left: 122px;
+    top: 0;
+    transform: translate(-50% , -50%);
+    border-radius: 6px;
+    height: 35px;
+    width: 122px;
+    background: $primaryMirrorColor;
+    line-height: 35px;
+    text-align: center;
+    box-shadow: 0 5px 10px #acdff7;
+    transition: 0s;
+    opacity: 0;
+    pointer-events: none;
+    display: block;
+}
+
+.act {
+    width: 260px;
+
+    .sidebar-content {
+
+        .sidebar-content__logo {
+            opacity: 1;
+            pointer-events: none;
+            color: $sidebarIconsColor;
+        }
+
+        #mirror-btn {
+            left: 90%;
+        }
+    }
+
+    .sidebar__list-items {
+
+        .sidebar__list-item {
+
+            .sidebar__list-item__icon {
+
+                .mirror-item-name {
+                    color: $sidebarIconsColor;
+                    opacity: 1;
+                    pointer-events: auto;
+                }
+            }
+
+            .mirror-tooltip {
+                display: none;
+            }
+        }
+    }
+}
 .mirror-hero {
     @include hero();
 
@@ -149,58 +202,17 @@
         font-size: 38px;
         color: $sidebarIconsColor;
     }
-}
-
-.mirror-tooltip {
-    position: absolute;
-    left: 122px;
-    top: 0;
-    transform: translate(-50% , -50%);
-    border-radius: 6px;
-    height: 35px;
-    width: 122px;
-    background: $primaryMirrorColor;
-    line-height: 35px;
-    text-align: center;
-    box-shadow: 0 5px 10px #acdff7;
-    transition: 0s;
-    opacity: 0;
-    pointer-events: none;
-    display: block;
-}
-
-.act {
-    width: 260px;
-
-    .sidebar-content {
-
-        .sidebar-content__logo {
-            opacity: 1;
-            pointer-events: none;
-            color: $sidebarIconsColor;
-        }
-
-        #mirror-btn {
-            left: 90%;
-        }
-    }
-
-    .sidebar__list-items {
-
-        .sidebar__list-item {
-
-            .sidebar__list-item__icon {
-
-                .mirror-item-name {
-                    color: $sidebarIconsColor;
-                    opacity: 1;
-                    pointer-events: auto;
-                }
-            }
-
-            .mirror-tooltip {
-                display: none;
-            }
+    
+    .mirror-gallary__slader {
+        height: 500px;
+        width: 75%;
+        margin: 0 auto;
+    
+        .mirror-gallary__slade {
+            height: 500px;
+            width: 340px;
+            border: 2px solid rgb(25, 0, 255);
+            margin: 8px;
         }
     }
 }
