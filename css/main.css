@@ -1,5 +1,5 @@
 .mdf {
-  background-color: #fff9ea;
+  background-color: #ffffff;
   font-family: 'Nunito', sans-serif;
   overflow: hidden;
   width: 100%;
@@ -161,7 +161,7 @@
 }
 
 .mirror {
-  background-color: #fff9ea;
+  background-color: #ffffff;
   font-family: 'Nunito', sans-serif;
   overflow: hidden;
   width: 100%;
@@ -174,7 +174,7 @@
   left: 0;
   height: 100%;
   width: 78px;
-  background-color: #e2f8cd;
+  background-color: #dbfcbc;
   padding: 8px 14px;
   transition: all .5s ease;
 }
@@ -323,7 +323,7 @@
 }
 
 body {
-  background-color: #fff9ea;
+  background-color: #ffffff;
   font-family: 'Nunito', sans-serif;
   overflow: hidden;
   width: 100vw;
@@ -359,7 +359,7 @@ body {
   background-image: url("/img/mirror.svg");
   background-repeat: no-repeat;
   background-size: 50%;
-  background-color: #e2f8cd;
+  background-color: #dbfcbc;
 }
 
 .app .box:nth-child(3) {
