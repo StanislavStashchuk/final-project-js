@@ -5,7 +5,7 @@
 }
 
 .mirror {
-  background-color: #fae8d2;
+  background-color: #fff9ea;
   font-family: 'Nunito', sans-serif;
   overflow: hidden;
   width: 100%;
@@ -17,14 +17,14 @@
   top: 0;
   left: 0;
   height: 100%;
-  width: 77px;
-  background-color: #b8860b;
+  width: 78px;
+  background-color: #e2f8cd;
   padding: 8px 14px;
   transition: all .5s ease;
 }
 
 .mirror-sidebar .sidebar-content .sidebar-content__logo {
-  color: #f7efef;
+  color: #740634;
   display: flex;
   height: 50px;
   width: 100%;
@@ -44,7 +44,7 @@
 
 .mirror-sidebar .sidebar-content #mirror-btn {
   position: absolute;
-  color: #ffffff;
+  color: #740634;
   top: 1px;
   left: 50%;
   top: 5px;
@@ -76,7 +76,7 @@
 }
 
 .mirror-sidebar .sidebar__list-items li a {
-  color: #f9f8ff;
+  color: #740634;
   display: flex;
   align-items: center;
   text-decoration: none;
