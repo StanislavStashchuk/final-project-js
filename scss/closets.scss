@@ -1,0 +1,10 @@
+@import "./_variables";
+@import "./mixins";
+
+.mirror {
+    background-color: $primaryBackgroundColor;
+    font-family: 'Nunito', sans-serif;
+    overflow: hidden;
+    width: 100%;
+    height: 2450px;
+}

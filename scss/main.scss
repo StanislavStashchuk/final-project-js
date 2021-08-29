@@ -1,5 +1,6 @@
 @import "./mdf";
 @import "./mirror";
+@import "./closets";
 @import "./_variables";
 
 * {
@@ -15,7 +16,7 @@ body {
 }
 
 .app {
-    width: 84%;
+    width: 82%;
     height: 100vh;
     overflow: hidden;
     box-shadow: 8px 4px 40px -25px #000000;
@@ -28,7 +29,7 @@ body {
     .box {
         flex: 1;
         height: 100%;
-        transition: .8s;
+        transition: .9s;
         background-position: center;
         &:nth-child(1) {
             background-image: url('/img/kitchen.svg');

@@ -1,4 +1,5 @@
 @import "./_variables";
+@import "./mixins";
 
 .mirror {
     background-color: $primaryBackgroundColor;
@@ -9,26 +10,14 @@
 }
 
 .mirror-sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 2450px;
-    width: 78px;
-    padding: 8px 14px;
-    transition: all .5s ease;
+    @include sidebar();
     background-color: $primaryMirrorColor;
     z-index: 100;
 
     .sidebar-content {
 
         .sidebar-content__logo {
-            color: $sidebarIconsColor;
-            display: flex;
-            height: 50px;
-            width: 100%;
-            align-items: center;
-            opacity: 0;
-            pointer-events: none;
+            @include sidebarLogo();
 
             i {
                 font-size: 40px;
@@ -41,17 +30,7 @@
         }
 
         #mirror-btn {
-            position: absolute;
-            color: $sidebarIconsColor;
-            top: 0px;
-            left: 50%;
-            top: 5px;
-            font-size: 26px;
-            height: 50px;
-            width: 50px;
-            text-align: center;
-            line-height: 50px;
-            transform: translateX(-50%);
+            @include sidebarBtn();
         }
     }
 
@@ -124,6 +103,58 @@
         font-size: 33px;
         color: $sidebarIconsColor;
         margin: 16px;
+    }
+
+    .mirror-hero__about {
+        width: 100%;
+        height: 550px;
+        background-color: $primaryMdfColor;
+        border-radius: 22px;
+        position: relative;
+        margin: 20px auto;
+        right: 260px;
+
+        .mirror-hero__about-text {
+            width: 70%;
+            height: 100%;
+            margin: 0 auto;
+            text-align: center;
+
+            h3 {
+                font-size: 38px;
+                color: $sidebarIconsColor;
+            }
+
+            p {
+                font-size: 30px;
+            }
+        }
+    }
+
+    .mirror-hero__stuff {
+        width: 100%;
+        height: 550px;
+        background-color: $primaryMirrorColor;
+        border-radius: 22px;
+        position: relative;
+        margin: 20px auto;
+        right: 260px;
+
+        .mirror-hero__stuff-text {
+            width: 70%;
+            height: 100%;
+            margin: 0 auto;
+            text-align: center;
+
+            h3 {
+                font-size: 38px;
+                color: $sidebarIconsColor;
+            }
+            
+            p {
+                font-size: 30px;
+            }
+        }
     }
 }
 
