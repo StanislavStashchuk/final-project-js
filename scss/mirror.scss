@@ -1,3 +1,5 @@
+@import "./_variables";
+
 * {
     padding: 0;
     margin: 0;
@@ -5,7 +7,7 @@
 }
 
 .mirror {
-    background-color: #fae8d2;
+    background-color: $primaryBackgroundColor;
     font-family: 'Nunito', sans-serif;
     overflow: hidden;
     width: 100%;
@@ -17,15 +19,15 @@
     top: 0;
     left: 0;
     height: 100%;
-    width: 77px;
-    background-color: #b8860b;
+    width: 78px;
+    background-color: $primaryMirrorColor;
     padding: 8px 14px;
     transition: all .5s ease;
 
     .sidebar-content {
 
         .sidebar-content__logo {
-            color: #f7efef;
+            color: $sidebarIconsColor;
             display: flex;
             height: 50px;
             width: 100%;
@@ -45,7 +47,7 @@
 
         #mirror-btn {
             position: absolute;
-            color: #ffffff;
+            color: $sidebarIconsColor;
             top: 1px;
             left: 50%;
             top: 5px;
@@ -79,7 +81,7 @@
             }
 
             a {
-                color: #f9f8ff;
+                color: $sidebarIconsColor;
                 display: flex;
                 align-items: center;
                 text-decoration: none;
