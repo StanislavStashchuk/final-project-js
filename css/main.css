@@ -3,14 +3,14 @@
   font-family: 'Nunito', sans-serif;
   overflow: hidden;
   width: 100%;
-  height: 1450px;
+  height: 2450px;
 }
 
 .mdf-sidebar {
   position: fixed;
   top: 0;
   left: 0;
-  height: 1450px;
+  height: 2450px;
   width: 78px;
   background-color: #f3fccd;
   padding: 8px 14px;
@@ -102,62 +102,6 @@
   background: #ffffff;
 }
 
-.mdf-hero {
-  position: relative;
-  height: 100%;
-  width: calc(100% - 260px);
-  left: 260px;
-  top: 0;
-  transition: all 0.5s ease;
-  z-index: 2;
-}
-
-.mdf-hero .mdf-hero__h2 {
-  display: inline-block;
-  font-size: 33px;
-  color: #740634;
-  margin: 16px;
-}
-
-.mdf-hero .mdf-hero__about {
-  width: 100%;
-  height: 550px;
-  background-color: #f3fccd;
-  border-radius: 22px;
-  position: relative;
-  margin: 20px auto;
-  right: 260px;
-}
-
-.mdf-hero .mdf-hero__about .mdf-hero__about-text {
-  width: 70%;
-  height: 100%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.mdf-hero .mdf-hero__about .mdf-hero__about-text h3 {
-  font-size: 33px;
-  color: #740634;
-}
-
-.mdf-hero .mdf-hero__stuff {
-  width: 100%;
-  height: 550px;
-  background-color: #dbfcbc;
-  border-radius: 22px;
-  position: relative;
-  margin: 20px auto;
-  right: 260px;
-}
-
-.mdf-hero .mdf-hero__stuff .mdf-hero__stuff-text {
-  width: 70%;
-  height: 100%;
-  margin: 0 auto;
-  text-align: center;
-}
-
 .mdf-tooltip {
   position: absolute;
   left: 122px;
@@ -200,10 +144,88 @@
   display: none;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+.mdf-hero {
+  position: relative;
+  height: 1230px;
+  width: calc(100% - 260px);
+  left: 260px;
+  top: 0;
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+
+.mdf-hero .mdf-hero__h2 {
+  display: inline-block;
+  font-size: 43px;
+  color: #740634;
+  margin: 16px 0 5px 0;
+}
+
+.mdf-hero .mdf-hero__about {
+  width: 100%;
+  height: 550px;
+  background-color: #f3fccd;
+  border-radius: 22px;
+  position: relative;
+  margin: 20px auto;
+  right: 260px;
+}
+
+.mdf-hero .mdf-hero__about .mdf-hero__about-text {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mdf-hero .mdf-hero__about .mdf-hero__about-text h3 {
+  font-size: 38px;
+  color: #740634;
+}
+
+.mdf-hero .mdf-hero__about .mdf-hero__about-text p {
+  font-size: 30px;
+}
+
+.mdf-hero .mdf-hero__stuff {
+  width: 100%;
+  height: 550px;
+  background-color: #dbfcbc;
+  border-radius: 22px;
+  position: relative;
+  margin: 20px auto;
+  right: 260px;
+}
+
+.mdf-hero .mdf-hero__stuff .mdf-hero__stuff-text {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mdf-hero .mdf-hero__stuff .mdf-hero__stuff-text h3 {
+  font-size: 38px;
+  color: #740634;
+}
+
+.mdf-hero .mdf-hero__stuff .mdf-hero__stuff-text p {
+  font-size: 30px;
+}
+
+.mdf-gallary {
+  width: calc(100% - 260px);
+  height: 550px;
+  background-color: #e5e09b;
+  margin: 20px 0 20px 0;
+  right: 330px;
+  border-radius: 22px;
+  text-align: center;
+}
+
+.mdf-gallary h3 {
+  font-size: 38px;
+  color: #740634;
 }
 
 .mirror {
@@ -211,7 +233,7 @@
   font-family: 'Nunito', sans-serif;
   overflow: hidden;
   width: 100%;
-  position: relative;
+  height: 2450px;
 }
 
 .mirror-sidebar {
@@ -381,7 +403,7 @@ body {
 }
 
 .app {
-  width: 85%;
+  width: 84%;
   height: 100vh;
   overflow: hidden;
   box-shadow: 8px 4px 40px -25px #000000;

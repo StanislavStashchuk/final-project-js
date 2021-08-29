@@ -1,15 +1,9 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 .mirror {
   background-color: #ffffff;
   font-family: 'Nunito', sans-serif;
   overflow: hidden;
   width: 100%;
-  position: relative;
+  height: 2450px;
 }
 
 .mirror-sidebar {
@@ -119,8 +113,8 @@
 
 .mirror-hero .mirror-hero__h2 {
   display: inline-block;
-  font-size: 25px;
-  color: #856107;
+  font-size: 33px;
+  color: #740634;
   margin: 16px;
 }
 
