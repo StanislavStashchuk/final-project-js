@@ -5,7 +5,7 @@
 }
 
 .mirror {
-  background-color: #fff9ea;
+  background-color: #ffffff;
   font-family: 'Nunito', sans-serif;
   overflow: hidden;
   width: 100%;
@@ -18,7 +18,7 @@
   left: 0;
   height: 100%;
   width: 78px;
-  background-color: #e2f8cd;
+  background-color: #dbfcbc;
   padding: 8px 14px;
   transition: all .5s ease;
 }
