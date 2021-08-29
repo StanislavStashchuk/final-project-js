@@ -63,7 +63,7 @@
   line-height: 50px;
 }
 
-.mdf-sidebar .sidebar__list-items li:hover .tooltip {
+.mdf-sidebar .sidebar__list-items li:hover .mdf-tooltip {
   transition: all .5s ease;
   top: 50%;
   opacity: 1;
@@ -79,7 +79,7 @@
   white-space: nowrap;
 }
 
-.mdf-sidebar .sidebar__list-items li a .item-name {
+.mdf-sidebar .sidebar__list-items li a .mdf-item-name {
   opacity: 0;
   pointer-events: none;
   transition: all .5s ease;
@@ -112,7 +112,7 @@
   margin: 16px;
 }
 
-.tooltip {
+.mdf-tooltip {
   position: absolute;
   left: 122px;
   top: 0;
@@ -120,10 +120,10 @@
   border-radius: 6px;
   height: 35px;
   width: 122px;
-  background: #f7e5d7;
+  background: #f3fccd;
   line-height: 35px;
   text-align: center;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(255, 0, 0, 0.2);
   transition: 0s;
   opacity: 0;
   pointer-events: none;
@@ -137,20 +137,20 @@
 .active .sidebar-content .sidebar-content__logo {
   opacity: 1;
   pointer-events: none;
-  color: #f0d9d9;
+  color: #740634;
 }
 
 .active .sidebar-content #mdf-btn {
   left: 90%;
 }
 
-.active .sidebar__list-items li .a .item-name {
+.active .sidebar__list-items li .a .mdf-item-name {
   color: #f7efef;
   opacity: 1;
   pointer-events: auto;
 }
 
-.active .sidebar__list-items li .tooltip {
+.active .sidebar__list-items li .mdf-tooltip {
   display: none;
 }
 /*# sourceMappingURL=mdf.css.map */
