@@ -12,11 +12,12 @@
     position: fixed;
     top: 0;
     left: 0;
-    height: 100%;
+    height: 2450px;
     width: 78px;
-    background-color: $primaryMirrorColor;
     padding: 8px 14px;
     transition: all .5s ease;
+    background-color: $primaryMirrorColor;
+    z-index: 100;
 
     .sidebar-content {
 
