@@ -3,7 +3,6 @@
   font-family: 'Nunito', sans-serif;
   overflow: hidden;
   width: 100%;
-  position: relative;
   height: 1450px;
 }
 
@@ -11,7 +10,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  height: 100%;
+  height: 1450px;
   width: 78px;
   background-color: #f3fccd;
   padding: 8px 14px;
@@ -115,8 +114,8 @@
 
 .mdf-hero .mdf-hero__h2 {
   display: inline-block;
-  font-size: 25px;
-  color: #856107;
+  font-size: 33px;
+  color: #740634;
   margin: 16px;
 }
 
@@ -135,6 +134,11 @@
   height: 100%;
   margin: 0 auto;
   text-align: center;
+}
+
+.mdf-hero .mdf-hero__about .mdf-hero__about-text h3 {
+  font-size: 33px;
+  color: #740634;
 }
 
 .mdf-hero .mdf-hero__stuff {

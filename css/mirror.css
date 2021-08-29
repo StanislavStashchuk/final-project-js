@@ -135,7 +135,7 @@
   background: #dbfcbc;
   line-height: 35px;
   text-align: center;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px #acdff7;
   transition: 0s;
   opacity: 0;
   pointer-events: none;
