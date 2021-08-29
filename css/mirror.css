@@ -3,7 +3,7 @@
   font-family: 'Nunito', sans-serif;
   overflow: hidden;
   width: 100%;
-  height: 2450px;
+  height: 2650px;
 }
 
 .mirror-sidebar {
@@ -102,75 +102,6 @@
   background: #ffffff;
 }
 
-.mirror-hero {
-  position: relative;
-  height: 100%;
-  width: calc(100% - 260px);
-  left: 260px;
-  top: 0;
-  transition: all 0.5s ease;
-  z-index: 2;
-}
-
-.mirror-hero .mirror-hero__h2 {
-  display: inline-block;
-  font-size: 33px;
-  color: #740634;
-  margin: 16px;
-}
-
-.mirror-hero .mirror-hero__about {
-  width: 100%;
-  height: 550px;
-  background-color: #f3fccd;
-  border-radius: 22px;
-  position: relative;
-  margin: 20px auto;
-  right: 260px;
-}
-
-.mirror-hero .mirror-hero__about .mirror-hero__about-text {
-  width: 70%;
-  height: 100%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.mirror-hero .mirror-hero__about .mirror-hero__about-text h3 {
-  font-size: 38px;
-  color: #740634;
-}
-
-.mirror-hero .mirror-hero__about .mirror-hero__about-text p {
-  font-size: 30px;
-}
-
-.mirror-hero .mirror-hero__stuff {
-  width: 100%;
-  height: 550px;
-  background-color: #dbfcbc;
-  border-radius: 22px;
-  position: relative;
-  margin: 20px auto;
-  right: 260px;
-}
-
-.mirror-hero .mirror-hero__stuff .mirror-hero__stuff-text {
-  width: 70%;
-  height: 100%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.mirror-hero .mirror-hero__stuff .mirror-hero__stuff-text h3 {
-  font-size: 38px;
-  color: #740634;
-}
-
-.mirror-hero .mirror-hero__stuff .mirror-hero__stuff-text p {
-  font-size: 30px;
-}
-
 .mirror-tooltip {
   position: absolute;
   left: 122px;
@@ -211,5 +142,102 @@
 
 .act .sidebar__list-items .sidebar__list-item .mirror-tooltip {
   display: none;
+}
+
+.mirror-hero {
+  position: relative;
+  height: 1320px;
+  width: calc(100% - 260px);
+  left: 260px;
+  top: 0;
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+
+.mirror-hero .mirror-hero__h2 {
+  display: inline-block;
+  font-size: 33px;
+  color: #740634;
+  margin: 16px;
+}
+
+.mirror-hero .mirror-hero__about {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  border-radius: 22px;
+  margin: 20px auto;
+  right: 260px;
+  background-color: #dbfcbc;
+}
+
+.mirror-hero .mirror-hero__about .mirror-hero__about-text {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mirror-hero .mirror-hero__about .mirror-hero__about-text h3 {
+  font-size: 38px;
+  color: #740634;
+}
+
+.mirror-hero .mirror-hero__about .mirror-hero__about-text p {
+  font-size: 30px;
+}
+
+.mirror-hero .mirror-hero__stuff {
+  width: 100%;
+  height: 600px;
+  border-radius: 22px;
+  position: relative;
+  margin: 20px auto;
+  right: 260px;
+  background-color: #e5e09b;
+}
+
+.mirror-hero .mirror-hero__stuff .mirror-hero__stuff-text {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mirror-hero .mirror-hero__stuff .mirror-hero__stuff-text h3 {
+  font-size: 38px;
+  color: #740634;
+}
+
+.mirror-hero .mirror-hero__stuff .mirror-hero__stuff-text p {
+  font-size: 30px;
+}
+
+.mirror-gallary {
+  width: calc(100% - 260px);
+  height: 600px;
+  margin: 20px 0 20px 0;
+  right: 330px;
+  border-radius: 22px;
+  text-align: center;
+  background-color: #a7baee;
+}
+
+.mirror-gallary h3 {
+  font-size: 38px;
+  color: #740634;
+}
+
+.mirror-gallary .mirror-gallary__slader {
+  height: 500px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.mirror-gallary .mirror-gallary__slader .mirror-gallary__slade {
+  height: 500px;
+  width: 340px;
+  border: 2px solid #1900ff;
+  margin: 8px;
 }
 /*# sourceMappingURL=mirror.css.map */

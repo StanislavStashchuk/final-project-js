@@ -14,7 +14,7 @@
   width: 78px;
   padding: 8px 14px;
   transition: all .5s ease;
-  background-color: #f3fccd;
+  background-color: #e5e09b;
   z-index: 100;
 }
 
@@ -57,7 +57,7 @@
 
 .closets-sidebar .sidebar__list-items .sidebar__list-item {
   position: relative;
-  height: 60px;
+  height: 50px;
   margin: 0 6px;
   width: 100%;
   list-style: none;
@@ -110,10 +110,10 @@
   border-radius: 6px;
   height: 35px;
   width: 122px;
-  background: #f3fccd;
+  background: #e5e09b;
   line-height: 35px;
   text-align: center;
-  box-shadow: 0 5px 10px rgba(255, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(102, 26, 102, 0.2);
   transition: 0s;
   opacity: 0;
   pointer-events: none;
@@ -146,7 +146,7 @@
 
 .closets-hero {
   position: relative;
-  height: 1330px;
+  height: 1320px;
   width: calc(100% - 260px);
   left: 260px;
   top: 0;
@@ -164,7 +164,7 @@
 .closets-hero .closets-hero__about {
   width: 100%;
   height: 600px;
-  background-color: #f3fccd;
+  background-color: #e5e09b;
   border-radius: 22px;
   position: relative;
   margin: 20px auto;
@@ -190,11 +190,11 @@
 .closets-hero .closets-hero__stuff {
   width: 100%;
   height: 600px;
-  background-color: #dbfcbc;
   border-radius: 22px;
   position: relative;
   margin: 20px auto;
   right: 260px;
+  background-color: #a7baee;
 }
 
 .closets-hero .closets-hero__stuff .closets-hero__stuff-text {
@@ -211,5 +211,20 @@
 
 .closets-hero .closets-hero__stuff .closets-hero__stuff-text p {
   font-size: 30px;
+}
+
+.closets-gallary {
+  width: calc(100% - 260px);
+  height: 600px;
+  margin: 20px 0 20px 0;
+  right: 330px;
+  border-radius: 22px;
+  text-align: center;
+  background-color: #f3fccd;
+}
+
+.closets-gallary h3 {
+  font-size: 38px;
+  color: #740634;
 }
 /*# sourceMappingURL=closets.css.map */

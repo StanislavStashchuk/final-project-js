@@ -6,7 +6,7 @@
     font-family: 'Nunito', sans-serif;
     overflow: hidden;
     width: 100%;
-    height: 2450px;
+    height: 2650px;
 }
 
 .mdf-sidebar {
@@ -38,13 +38,7 @@
         margin-top: 20px;
 
         .sidebar__list-item {
-            position: relative;
-            height: 60px;
-            margin: 0 6px;
-            width: 100%;
-            list-style: none;
-            line-height: 50px;
-            font-size: 20px;
+            @include sidebarListItem();
             color: $sidebarIconsColor;
 
             &:hover {
@@ -144,13 +138,7 @@
 }
 
 .mdf-hero {
-    position: relative;
-    height: 1330px;
-    width: calc(100% - 260px);
-    left: 260px;
-    top: 0;
-    transition: all 0.5s ease;
-    z-index: 2;
+    @include hero();
 
     .mdf-hero__h2 {
         display: inline-block;
@@ -162,11 +150,11 @@
     .mdf-hero__about {
         width: 100%;
         height: 600px;
-        background-color: $primaryMdfColor;
         border-radius: 22px;
         position: relative;
         margin: 20px auto;
         right: 260px;
+        background-color: $primaryMdfColor;
 
         .mdf-hero__about-text {
             width: 70%;
@@ -186,13 +174,8 @@
     }
 
     .mdf-hero__stuff {
-        width: 100%;
-        height: 600px;
+        @include heroStuff();
         background-color: $primaryMirrorColor;
-        border-radius: 22px;
-        position: relative;
-        margin: 20px auto;
-        right: 260px;
 
         .mdf-hero__stuff-text {
             width: 70%;
@@ -213,16 +196,24 @@
 }
 
 .mdf-gallary {
-    width: calc(100% - 260px);
-    height: 600px;
+    @include gallary();
     background-color: $primaryClosetColor;
-    margin: 20px 0 20px 0;
-    right: 330px;
-    border-radius: 22px;
-    text-align: center;
 
     h3 {
         font-size: 38px;
         color: $sidebarIconsColor;
+    }
+
+    .mdf-gallary__slader {
+        height: 500px;
+        width: 75%;
+        margin: 0 auto;
+
+        .mdf-gallary__slade {
+            height: 500px;
+            width: 340px;
+            border: 4px solid red;
+            margin: 8px;
+        }
     }
 }

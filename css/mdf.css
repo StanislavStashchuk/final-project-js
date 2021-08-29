@@ -3,7 +3,7 @@
   font-family: 'Nunito', sans-serif;
   overflow: hidden;
   width: 100%;
-  height: 2450px;
+  height: 2650px;
 }
 
 .mdf-sidebar {
@@ -57,7 +57,7 @@
 
 .mdf-sidebar .sidebar__list-items .sidebar__list-item {
   position: relative;
-  height: 60px;
+  height: 50px;
   margin: 0 6px;
   width: 100%;
   list-style: none;
@@ -146,7 +146,7 @@
 
 .mdf-hero {
   position: relative;
-  height: 1330px;
+  height: 1320px;
   width: calc(100% - 260px);
   left: 260px;
   top: 0;
@@ -164,11 +164,11 @@
 .mdf-hero .mdf-hero__about {
   width: 100%;
   height: 600px;
-  background-color: #f3fccd;
   border-radius: 22px;
   position: relative;
   margin: 20px auto;
   right: 260px;
+  background-color: #f3fccd;
 }
 
 .mdf-hero .mdf-hero__about .mdf-hero__about-text {
@@ -190,11 +190,11 @@
 .mdf-hero .mdf-hero__stuff {
   width: 100%;
   height: 600px;
-  background-color: #dbfcbc;
   border-radius: 22px;
   position: relative;
   margin: 20px auto;
   right: 260px;
+  background-color: #dbfcbc;
 }
 
 .mdf-hero .mdf-hero__stuff .mdf-hero__stuff-text {
@@ -216,15 +216,28 @@
 .mdf-gallary {
   width: calc(100% - 260px);
   height: 600px;
-  background-color: #e5e09b;
   margin: 20px 0 20px 0;
   right: 330px;
   border-radius: 22px;
   text-align: center;
+  background-color: #e5e09b;
 }
 
 .mdf-gallary h3 {
   font-size: 38px;
   color: #740634;
+}
+
+.mdf-gallary .mdf-gallary__slader {
+  height: 500px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.mdf-gallary .mdf-gallary__slader .mdf-gallary__slade {
+  height: 500px;
+  width: 340px;
+  border: 4px solid red;
+  margin: 8px;
 }
 /*# sourceMappingURL=mdf.css.map */
