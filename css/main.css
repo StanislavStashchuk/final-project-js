@@ -4,6 +4,7 @@
   overflow: hidden;
   width: 100%;
   position: relative;
+  height: 1450px;
 }
 
 .mdf-sidebar {
@@ -15,6 +16,7 @@
   background-color: #f3fccd;
   padding: 8px 14px;
   transition: all .5s ease;
+  z-index: 100;
 }
 
 .mdf-sidebar .sidebar-content .sidebar-content__logo {
@@ -116,6 +118,40 @@
   font-size: 25px;
   color: #856107;
   margin: 16px;
+}
+
+.mdf-hero .mdf-hero__about {
+  width: 100%;
+  height: 550px;
+  background-color: #f3fccd;
+  border-radius: 22px;
+  position: relative;
+  margin: 20px auto;
+  right: 260px;
+}
+
+.mdf-hero .mdf-hero__about .mdf-hero__about-text {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mdf-hero .mdf-hero__stuff {
+  width: 100%;
+  height: 550px;
+  background-color: #dbfcbc;
+  border-radius: 22px;
+  position: relative;
+  margin: 20px auto;
+  right: 260px;
+}
+
+.mdf-hero .mdf-hero__stuff .mdf-hero__stuff-text {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .mdf-tooltip {
@@ -398,7 +434,7 @@ body {
   text-align: center;
   padding-top: 50px;
   font-size: 33px;
-  transition-duration: .8s;
+  transition-duration: .7s;
   opacity: 0;
   cursor: pointer;
 }
@@ -410,7 +446,7 @@ body {
 .app .box h2 .box-ancor {
   color: #4b0645;
   text-decoration: none;
-  transition-duration: .8s;
+  transition-duration: .7s;
   cursor: pointer;
 }
 
