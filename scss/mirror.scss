@@ -82,7 +82,7 @@
                 }
             }
 
-            a {
+            .sidebar__list-item__icon {
                 color: $sidebarIconsColor;
                 display: flex;
                 align-items: center;
@@ -170,7 +170,7 @@
 
         .sidebar__list-item {
 
-            a {
+            .sidebar__list-item__icon {
 
                 .mirror-item-name {
                     color: $sidebarIconsColor;

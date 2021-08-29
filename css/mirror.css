@@ -77,7 +77,7 @@
   opacity: 1;
 }
 
-.mirror-sidebar .sidebar__list-items .sidebar__list-item a {
+.mirror-sidebar .sidebar__list-items .sidebar__list-item .sidebar__list-item__icon {
   color: #740634;
   display: flex;
   align-items: center;
@@ -87,13 +87,13 @@
   white-space: nowrap;
 }
 
-.mirror-sidebar .sidebar__list-items .sidebar__list-item a .mirror-item-name {
+.mirror-sidebar .sidebar__list-items .sidebar__list-item .sidebar__list-item__icon .mirror-item-name {
   opacity: 0;
   pointer-events: none;
   transition: all .5s ease;
 }
 
-.mirror-sidebar .sidebar__list-items .sidebar__list-item a i {
+.mirror-sidebar .sidebar__list-items .sidebar__list-item .sidebar__list-item__icon i {
   height: 50px;
   min-width: 50px;
   border-radius: 12px;
@@ -102,7 +102,7 @@
   text-align: center;
 }
 
-.mirror-sidebar .sidebar__list-items .sidebar__list-item a:hover {
+.mirror-sidebar .sidebar__list-items .sidebar__list-item .sidebar__list-item__icon:hover {
   color: #271616;
   background: #ffffff;
 }
@@ -156,7 +156,7 @@
   left: 90%;
 }
 
-.act .sidebar__list-items .sidebar__list-item a .mirror-item-name {
+.act .sidebar__list-items .sidebar__list-item .sidebar__list-item__icon .mirror-item-name {
   color: #740634;
   opacity: 1;
   pointer-events: auto;
