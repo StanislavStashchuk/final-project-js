@@ -1,5 +1,6 @@
 @import "./mdf";
 @import "./mirror";
+@import "./_variables";
 
 * {
     margin: 0;
@@ -8,7 +9,7 @@
 }
 
 body {
-    background-color: #fae8d2;
+    background-color: $primaryBackgroundColor;
     font-family: 'Nunito', sans-serif;
     overflow: hidden;
     width: 100vw;
@@ -33,25 +34,25 @@ body {
             background-image: url('/img/kitchen.svg');
             background-repeat: no-repeat;
             background-size: 50%;
-            background-color: #ffffff;
+            background-color: $primaryMdfColor;
         }
         &:nth-child(2) {
             background-image: url('/img/mirror.svg');
             background-repeat: no-repeat;
             background-size: 50%;
-            background-color: #e2f8cd;
+            background-color: $primaryMirrorColor;
         }
         &:nth-child(3) {
             background-image: url('/img/closet.svg');
             background-repeat: no-repeat;
             background-size: 50%;
-            background-color: #e5e09b;
+            background-color: $primaryClosetColor;
         }
         &:nth-child(4) {
             background-image: url('/img/shower.svg');
             background-repeat: no-repeat;
             background-size: 50%;
-            background-color: #a7baee;
+            background-color: $primaryShowerColor;
         }
         &:hover {
             flex: 1.7;
@@ -62,7 +63,7 @@ body {
             text-align: center;
             padding-top: 50px;
             font-size: 30px;
-            transition-duration: .9s;
+            transition-duration: .8s;
             opacity: 0;
             cursor: pointer;
             &:hover {
@@ -71,12 +72,11 @@ body {
             a {
                 color: #4b0645;
                 text-decoration: none;
-                transition-duration: .9s;
+                transition-duration: .8s;
                 cursor: pointer;
                 &:hover {
-                    color: #800035;
+                    color: #740634;
                 }
-
             }
         }
     } 

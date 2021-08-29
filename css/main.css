@@ -323,7 +323,7 @@
 }
 
 body {
-  background-color: #fae8d2;
+  background-color: #fff9ea;
   font-family: 'Nunito', sans-serif;
   overflow: hidden;
   width: 100vw;
@@ -352,7 +352,7 @@ body {
   background-image: url("/img/kitchen.svg");
   background-repeat: no-repeat;
   background-size: 50%;
-  background-color: #ffffff;
+  background-color: #f3fccd;
 }
 
 .app .box:nth-child(2) {
@@ -386,7 +386,7 @@ body {
   text-align: center;
   padding-top: 50px;
   font-size: 30px;
-  transition-duration: .9s;
+  transition-duration: .8s;
   opacity: 0;
   cursor: pointer;
 }
@@ -398,11 +398,11 @@ body {
 .app .box h2 a {
   color: #4b0645;
   text-decoration: none;
-  transition-duration: .9s;
+  transition-duration: .8s;
   cursor: pointer;
 }
 
 .app .box h2 a:hover {
-  color: #800035;
+  color: #740634;
 }
 /*# sourceMappingURL=main.css.map */
