@@ -1,4 +1,4 @@
-.mdf {
+.closets {
   background-color: #ffffff;
   font-family: 'Nunito', sans-serif;
   overflow: hidden;
@@ -6,7 +6,7 @@
   height: 2450px;
 }
 
-.mdf-sidebar {
+.closets-sidebar {
   position: fixed;
   top: 0;
   left: 0;
@@ -18,7 +18,7 @@
   z-index: 100;
 }
 
-.mdf-sidebar .sidebar-content .sidebar-content__logo {
+.closets-sidebar .sidebar-content .sidebar-content__logo {
   color: #740634;
   display: flex;
   height: 50px;
@@ -28,16 +28,16 @@
   pointer-events: none;
 }
 
-.mdf-sidebar .sidebar-content .sidebar-content__logo i {
+.closets-sidebar .sidebar-content .sidebar-content__logo i {
   font-size: 40px;
   margin-right: 5px;
 }
 
-.mdf-sidebar .sidebar-content .sidebar-content__logo .logo-name {
+.closets-sidebar .sidebar-content .sidebar-content__logo .logo-name {
   font-size: 22px;
 }
 
-.mdf-sidebar .sidebar-content #mdf-btn {
+.closets-sidebar .sidebar-content #closets-btn {
   position: absolute;
   color: #740634;
   top: 0px;
@@ -51,11 +51,11 @@
   transform: translateX(-50%);
 }
 
-.mdf-sidebar .sidebar__list-items {
+.closets-sidebar .sidebar__list-items {
   margin-top: 20px;
 }
 
-.mdf-sidebar .sidebar__list-items .sidebar__list-item {
+.closets-sidebar .sidebar__list-items .sidebar__list-item {
   position: relative;
   height: 60px;
   margin: 0 6px;
@@ -66,13 +66,13 @@
   color: #740634;
 }
 
-.mdf-sidebar .sidebar__list-items .sidebar__list-item:hover .mdf-tooltip {
+.closets-sidebar .sidebar__list-items .sidebar__list-item:hover .closets-tooltip {
   transition: all .5s ease;
   top: 50%;
   opacity: 1;
 }
 
-.mdf-sidebar .sidebar__list-items .sidebar__list-item .sidebar__list-item__icon {
+.closets-sidebar .sidebar__list-items .sidebar__list-item .sidebar__list-item__icon {
   color: #740634;
   display: flex;
   align-items: center;
@@ -82,13 +82,13 @@
   white-space: nowrap;
 }
 
-.mdf-sidebar .sidebar__list-items .sidebar__list-item .sidebar__list-item__icon .mdf-item-name {
+.closets-sidebar .sidebar__list-items .sidebar__list-item .sidebar__list-item__icon .closets-item-name {
   opacity: 0;
   pointer-events: none;
   transition: all .5s ease;
 }
 
-.mdf-sidebar .sidebar__list-items .sidebar__list-item .sidebar__list-item__icon i {
+.closets-sidebar .sidebar__list-items .sidebar__list-item .sidebar__list-item__icon i {
   height: 50px;
   min-width: 50px;
   border-radius: 12px;
@@ -97,12 +97,12 @@
   text-align: center;
 }
 
-.mdf-sidebar .sidebar__list-items .sidebar__list-item .sidebar__list-item__icon:hover {
+.closets-sidebar .sidebar__list-items .sidebar__list-item .sidebar__list-item__icon:hover {
   color: #271616;
   background: #ffffff;
 }
 
-.mdf-tooltip {
+.closets-tooltip {
   position: absolute;
   left: 122px;
   top: 0;
@@ -130,21 +130,21 @@
   color: #740634;
 }
 
-.active .sidebar-content #mdf-btn {
+.active .sidebar-content #closets-btn {
   left: 90%;
 }
 
-.active .sidebar__list-items .sidebar__list-item .sidebar__list-item__icon .mdf-item-name {
+.active .sidebar__list-items .sidebar__list-item .sidebar__list-item__icon .closets-item-name {
   color: #740634;
   opacity: 1;
   pointer-events: auto;
 }
 
-.active .sidebar__list-items .sidebar__list-item .mdf-tooltip {
+.active .sidebar__list-items .sidebar__list-item .closets-tooltip {
   display: none;
 }
 
-.mdf-hero {
+.closets-hero {
   position: relative;
   height: 1330px;
   width: calc(100% - 260px);
@@ -154,14 +154,14 @@
   z-index: 2;
 }
 
-.mdf-hero .mdf-hero__h2 {
+.closets-hero .closets-hero__h2 {
   display: inline-block;
   font-size: 43px;
   color: #740634;
   margin: 16px 0 5px 0;
 }
 
-.mdf-hero .mdf-hero__about {
+.closets-hero .closets-hero__about {
   width: 100%;
   height: 600px;
   background-color: #f3fccd;
@@ -171,23 +171,23 @@
   right: 260px;
 }
 
-.mdf-hero .mdf-hero__about .mdf-hero__about-text {
+.closets-hero .closets-hero__about .closets-hero__about-text {
   width: 70%;
   height: 100%;
   margin: 0 auto;
   text-align: center;
 }
 
-.mdf-hero .mdf-hero__about .mdf-hero__about-text h3 {
+.closets-hero .closets-hero__about .closets-hero__about-text h3 {
   font-size: 38px;
   color: #740634;
 }
 
-.mdf-hero .mdf-hero__about .mdf-hero__about-text p {
+.closets-hero .closets-hero__about .closets-hero__about-text p {
   font-size: 30px;
 }
 
-.mdf-hero .mdf-hero__stuff {
+.closets-hero .closets-hero__stuff {
   width: 100%;
   height: 600px;
   background-color: #dbfcbc;
@@ -197,34 +197,19 @@
   right: 260px;
 }
 
-.mdf-hero .mdf-hero__stuff .mdf-hero__stuff-text {
+.closets-hero .closets-hero__stuff .closets-hero__stuff-text {
   width: 70%;
   height: 100%;
   margin: 0 auto;
   text-align: center;
 }
 
-.mdf-hero .mdf-hero__stuff .mdf-hero__stuff-text h3 {
+.closets-hero .closets-hero__stuff .closets-hero__stuff-text h3 {
   font-size: 38px;
   color: #740634;
 }
 
-.mdf-hero .mdf-hero__stuff .mdf-hero__stuff-text p {
+.closets-hero .closets-hero__stuff .closets-hero__stuff-text p {
   font-size: 30px;
 }
-
-.mdf-gallary {
-  width: calc(100% - 260px);
-  height: 600px;
-  background-color: #e5e09b;
-  margin: 20px 0 20px 0;
-  right: 330px;
-  border-radius: 22px;
-  text-align: center;
-}
-
-.mdf-gallary h3 {
-  font-size: 38px;
-  color: #740634;
-}
-/*# sourceMappingURL=mdf.css.map */
+/*# sourceMappingURL=closets.css.map */
