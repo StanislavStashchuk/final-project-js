@@ -39,7 +39,7 @@
 .mdf-sidebar .sidebar-content #mdf-btn {
   position: absolute;
   color: #740634;
-  top: 1px;
+  top: 0px;
   left: 50%;
   top: 5px;
   font-size: 26px;
@@ -56,11 +56,13 @@
 
 .mdf-sidebar .sidebar__list-items li {
   position: relative;
-  height: 50px;
+  height: 60px;
   margin: 0 6px;
   width: 100%;
   list-style: none;
   line-height: 50px;
+  font-size: 20px;
+  color: #740634;
 }
 
 .mdf-sidebar .sidebar__list-items li:hover .mdf-tooltip {
@@ -96,18 +98,22 @@
 
 .mdf-sidebar .sidebar__list-items li a:hover {
   color: #271616;
-  background: #ececec;
+  background: #ffffff;
 }
 
 .mdf-hero {
-  position: absolute;
+  position: relative;
   height: 100%;
   width: calc(100% - 260px);
   left: 260px;
+  top: 0;
+  transition: all 0.5s ease;
+  z-index: 2;
 }
 
 .mdf-hero .mdf-hero__h2 {
-  font-size: 30px;
+  display: inline-block;
+  font-size: 25px;
   color: #856107;
   margin: 16px;
 }
@@ -145,8 +151,8 @@
 }
 
 .active .sidebar__list-items li .a .mdf-item-name {
-  color: #f7efef;
-  opacity: 1;
+  color: #740634;
+  opacity: .9;
   pointer-events: auto;
 }
 

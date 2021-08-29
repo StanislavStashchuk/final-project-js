@@ -45,7 +45,7 @@
 .mirror-sidebar .sidebar-content #mirror-btn {
   position: absolute;
   color: #740634;
-  top: 1px;
+  top: 0px;
   left: 50%;
   top: 5px;
   font-size: 26px;
@@ -67,6 +67,8 @@
   width: 100%;
   list-style: none;
   line-height: 50px;
+  font-size: 20px;
+  color: #740634;
 }
 
 .mirror-sidebar .sidebar__list-items li:hover .mirror-tooltip {
@@ -106,14 +108,18 @@
 }
 
 .mirror-hero {
-  position: absolute;
+  position: relative;
   height: 100%;
   width: calc(100% - 260px);
   left: 260px;
+  top: 0;
+  transition: all 0.5s ease;
+  z-index: 2;
 }
 
 .mirror-hero .mirror-hero__h2 {
-  font-size: 30px;
+  display: inline-block;
+  font-size: 25px;
   color: #856107;
   margin: 16px;
 }
@@ -151,8 +157,8 @@
 }
 
 .act .sidebar__list-items li .a .mirror-item-name {
-  color: #f7efef;
-  opacity: 1;
+  color: #740634;
+  opacity: .9;
   pointer-events: auto;
 }
 
