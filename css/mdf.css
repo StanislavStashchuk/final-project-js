@@ -150,9 +150,9 @@
   left: 90%;
 }
 
-.active .sidebar__list-items li .a .mdf-item-name {
+.active .sidebar__list-items li a .mdf-item-name {
   color: #740634;
-  opacity: .9;
+  opacity: 1;
   pointer-events: auto;
 }
 

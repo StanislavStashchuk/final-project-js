@@ -104,7 +104,7 @@
 
 .mirror-sidebar .sidebar__list-items li a:hover {
   color: #271616;
-  background: #ececec;
+  background: #ffffff;
 }
 
 .mirror-hero {
@@ -156,9 +156,9 @@
   left: 90%;
 }
 
-.act .sidebar__list-items li .a .mirror-item-name {
+.act .sidebar__list-items li a .mirror-item-name {
   color: #740634;
-  opacity: .9;
+  opacity: 1;
   pointer-events: auto;
 }
 
