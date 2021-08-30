@@ -2,11 +2,8 @@
 @import "./mixins";
 
 .mirror {
+    @include body();
     background-color: $primaryBackgroundColor;
-    font-family: 'Nunito', sans-serif;
-    overflow: hidden;
-    width: 100%;
-    height: 2650px;
 }
 
 .mirror-sidebar {

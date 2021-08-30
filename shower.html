@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest-Fasad</title>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="shower">
+        <!-- -----SIDEBAR----- -->
+        <div class="shower-sidebar" id="shower-sidebar">
+            <div class="sidebar-content">
+                <div class="sidebar-content__logo">
+                    <i class="bx bxl-foursquare"></i>
+                    <div class="logo-name">Форест-Фасад</div>
+                </div>
+                <i class="bx bx-menu" id="shower-btn"></i>
+            </div>
+            <ul class="sidebar__list-items">
+                <li class="sidebar__list-item">
+                    <a href="index.html" class="sidebar__list-item__icon">
+                        <i class="bx bx-home-smile" ></i>
+                        <span class="shower-item-name">Домашня</span>
+                    </a>
+                    <span class="shower-tooltip">Домашня</span>
+                </li>
+                <li class="sidebar__list-item">
+                    <a href="#shower-hero__about" class="sidebar__list-item__icon">
+                        <i class="bx bx-disc" ></i>
+                        <span class="shower-item-name">Про нас</span>
+                    </a>
+                    <span class="shower-tooltip">Про нас</span>
+                </li>
+                <li class="sidebar__list-item">
+                    <a href="#shower-hero__stuff" class="sidebar__list-item__icon">
+                        <i class="bx bx-info-square"></i>
+                        <span class="shower-item-name">Опис товару</span>
+                    </a>
+                    <span class="shower-tooltip">Опис товару</span>
+                </li>
+                <li class="sidebar__list-item">
+                    <a href="#shower-gallary" class="sidebar__list-item__icon">
+                        <i class="bx bx-photo-album"></i>
+                        <span class="shower-item-name">Галерея</span>
+                    </a>
+                    <span class="shower-tooltip">Галерея</span>
+                </li>
+                <li class="sidebar__list-item">
+                    <a href="#shower-order" class="sidebar__list-item__icon">
+                        <i class="bx bx-cart-alt" ></i>
+                        <span class="shower-item-name">Замовити</span>
+                    </a>
+                    <span class="shower-tooltip">Замовити</span>
+                </li>
+                <li class="sidebar__list-item">
+                    <a href="#shower-price" class="sidebar__list-item__icon">
+                        <i class="bx bx-spreadsheet" ></i>
+                        <span class="shower-item-name">Прайс</span>
+                    </a>
+                    <span class="shower-tooltip">Прайс</span>
+                </li>
+            </ul>
+        </div>
+        <!-- -------HERO------- -->
+        <main class="shower-hero">
+            <h2 class="shower-hero__h2">МДФ ФАСАДИ</h2>
+            <div class="shower-hero__about" id="shower-hero__about">
+                <div class="shower-hero__about-text">
+                    <h3> Про нас </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, 
+                        adipisicing elit. Labore perferendis necessitatibus ipsa in eligendi 
+                        molestiae voluptatum consequuntur, molestias vitae eveniet, 
+                        corporis fuga debitis illum minus, perspiciatis ad tempore temporibus tenetur.
+                    </p>
+                </div>
+            </div>
+
+            <div class="shower-hero__stuff" id="shower-hero__stuff">
+                <div class="shower-hero__stuff-text">
+                    <h3> Опис товару </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, 
+                        adipisicing elit. Labore perferendis necessitatibus ipsa in eligendi 
+                        molestiae voluptatum consequuntur, molestias vitae eveniet, 
+                        corporis fuga debitis illum minus, perspiciatis ad tempore temporibus tenetur.
+                    </p>
+                </div>
+            </div>           
+        </main>
+        <!-- -----GALLARY----- -->
+        <div class="shower-gallary" id="shower-gallary">
+            <h3>Галерея</h3>
+            <div class="shower-gallary__slader">
+                <img src="https://via.placeholder.com/500x800?text=Фасади" class="shower-gallary__slade" alt="">
+                <img src="https://via.placeholder.com/500x800?text=Пілястри" class="shower-gallary__slade" alt="">
+                <img src="https://via.placeholder.com/500x800?text=Карнизи" class="shower-gallary__slade" alt="">
+                <img src="https://via.placeholder.com/500x800?text=Бильця" class="shower-gallary__slade" alt="">
+                <img src="https://via.placeholder.com/500x800?text=Накладки" class="shower-gallary__slade" alt="">
+            </div>
+        </div>
+        <!-- -------ORDER------- -->
+        <div class="shower-order" id="shower-order"></div>
+        <!-- -------PRICE------- -->
+        <div class="shower-price" id="shower-price"></div>
+        <footer class="shower-footer"></footer>
+    </div>
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <!-- -----SCRIPT----- -->
+    <script src="/js/shower.js"></script>
+</body>
+</html>

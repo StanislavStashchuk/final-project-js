@@ -2,11 +2,8 @@
 @import "./mixins";
 
 .closets {
+    @include body();
     background-color: $primaryBackgroundColor;
-    font-family: 'Nunito', sans-serif;
-    overflow: hidden;
-    width: 100%;
-    height: 2450px;
 }
 
 .closets-sidebar {

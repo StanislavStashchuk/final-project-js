@@ -2,12 +2,8 @@
 @import "./mixins";
 
 .mdf {
+    @include body();
     background-color: $primaryBackgroundColor;
-    font-family: 'Nunito', sans-serif;
-    overflow: hidden;
-    width: 90%;
-    height: 2650px;
-    margin: 0 auto;
 }
 
 .mdf-sidebar {

@@ -1,0 +1,7 @@
+@import "./_variables";
+@import "./mixins";
+
+.shower {
+    @include body();
+    background-color: $primaryBackgroundColor;
+}
