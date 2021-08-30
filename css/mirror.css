@@ -1,9 +1,10 @@
 .mirror {
-  background-color: #ffffff;
   font-family: 'Nunito', sans-serif;
   overflow: hidden;
-  width: 100%;
+  width: 90%;
   height: 2650px;
+  margin: 0 auto;
+  background-color: #ffffff;
 }
 
 .mirror-sidebar {
