@@ -407,8 +407,8 @@
 .mirror-hero .mirror-hero__about {
   width: 100%;
   height: 600px;
-  position: relative;
   border-radius: 22px;
+  position: relative;
   margin: 20px auto;
   right: 260px;
   background-color: #dbfcbc;
@@ -650,11 +650,11 @@
 .closets-hero .closets-hero__about {
   width: 100%;
   height: 600px;
-  background-color: #e5e09b;
   border-radius: 22px;
   position: relative;
   margin: 20px auto;
   right: 260px;
+  background-color: #e5e09b;
 }
 
 .closets-hero .closets-hero__about .closets-hero__about-text {
