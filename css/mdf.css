@@ -2,8 +2,9 @@
   background-color: #ffffff;
   font-family: 'Nunito', sans-serif;
   overflow: hidden;
-  width: 100%;
+  width: 90%;
   height: 2650px;
+  margin: 0 auto;
 }
 
 .mdf-sidebar {
@@ -167,12 +168,12 @@
   border-radius: 22px;
   position: relative;
   margin: 20px auto;
-  right: 260px;
+  right: 20%;
   background-color: #f3fccd;
 }
 
 .mdf-hero .mdf-hero__about .mdf-hero__about-text {
-  width: 70%;
+  width: 80%;
   height: 100%;
   margin: 0 auto;
   text-align: center;
@@ -193,12 +194,12 @@
   border-radius: 22px;
   position: relative;
   margin: 20px auto;
-  right: 260px;
+  right: 20%;
   background-color: #dbfcbc;
 }
 
 .mdf-hero .mdf-hero__stuff .mdf-hero__stuff-text {
-  width: 70%;
+  width: 80%;
   height: 100%;
   margin: 0 auto;
   text-align: center;
@@ -217,7 +218,7 @@
   width: calc(100% - 260px);
   height: 600px;
   margin: 20px 0 20px 0;
-  right: 330px;
+  right: 20%;
   border-radius: 22px;
   text-align: center;
   background-color: #e5e09b;

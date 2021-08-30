@@ -5,8 +5,9 @@
     background-color: $primaryBackgroundColor;
     font-family: 'Nunito', sans-serif;
     overflow: hidden;
-    width: 100%;
+    width: 90%;
     height: 2650px;
+    margin: 0 auto;
 }
 
 .mdf-sidebar {
@@ -152,7 +153,7 @@
         background-color: $primaryMdfColor;
 
         .mdf-hero__about-text {
-            width: 70%;
+            width: 80%;
             height: 100%;
             margin: 0 auto;
             text-align: center;
@@ -173,7 +174,7 @@
         background-color: $primaryMirrorColor;
 
         .mdf-hero__stuff-text {
-            width: 70%;
+            width: 80%;
             height: 100%;
             margin: 0 auto;
             text-align: center;

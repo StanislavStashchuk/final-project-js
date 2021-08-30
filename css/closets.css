@@ -167,7 +167,7 @@
   border-radius: 22px;
   position: relative;
   margin: 20px auto;
-  right: 260px;
+  right: 20%;
   background-color: #e5e09b;
 }
 
@@ -193,7 +193,7 @@
   border-radius: 22px;
   position: relative;
   margin: 20px auto;
-  right: 260px;
+  right: 20%;
   background-color: #a7baee;
 }
 
@@ -217,7 +217,7 @@
   width: calc(100% - 260px);
   height: 600px;
   margin: 20px 0 20px 0;
-  right: 330px;
+  right: 20%;
   border-radius: 22px;
   text-align: center;
   background-color: #f3fccd;
