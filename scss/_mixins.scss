@@ -10,26 +10,26 @@
 
 @mixin sidebarLogo {
     color: $sidebarIconsColor;
-            display: flex;
-            height: 50px;
-            width: 100%;
-            align-items: center;
-            opacity: 0;
-            pointer-events: none;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
 }
 
 @mixin sidebarBtn {
     position: absolute;
-            color: $sidebarIconsColor;
-            top: 0px;
-            left: 50%;
-            top: 5px;
-            font-size: 26px;
-            height: 50px;
-            width: 50px;
-            text-align: center;
-            line-height: 50px;
-            transform: translateX(-50%);
+    color: $sidebarIconsColor;
+    top: 0px;
+    left: 50%;
+    top: 5px;
+    font-size: 26px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    transform: translateX(-50%);
 }
 
 @mixin sidebarListItem {
@@ -52,20 +52,29 @@
     z-index: 2;
 }
 
+@mixin heroAbout {
+    width: 100%;
+    height: 600px;
+    border-radius: 22px;
+    position: relative;
+    margin: 20px auto;
+    right: 20%;
+}
+
 @mixin heroStuff {
     width: 100%;
     height: 600px;
     border-radius: 22px;
     position: relative;
     margin: 20px auto;
-    right: 260px;
+    right: 20%;
 }
 
 @mixin gallary {
     width: calc(100% - 260px);
     height: 600px;
     margin: 20px 0 20px 0;
-    right: 330px;
+    right: 20%;
     border-radius: 22px;
     text-align: center;
 }

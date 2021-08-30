@@ -164,10 +164,10 @@
 .mirror-hero .mirror-hero__about {
   width: 100%;
   height: 600px;
-  position: relative;
   border-radius: 22px;
+  position: relative;
   margin: 20px auto;
-  right: 260px;
+  right: 20%;
   background-color: #dbfcbc;
 }
 
@@ -193,7 +193,7 @@
   border-radius: 22px;
   position: relative;
   margin: 20px auto;
-  right: 260px;
+  right: 20%;
   background-color: #e5e09b;
 }
 
@@ -217,7 +217,7 @@
   width: calc(100% - 260px);
   height: 600px;
   margin: 20px 0 20px 0;
-  right: 330px;
+  right: 20%;
   border-radius: 22px;
   text-align: center;
   background-color: #a7baee;
