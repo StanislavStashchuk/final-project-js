@@ -78,6 +78,13 @@
     right: 20%;
 }
 
+@mixin text {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
 @mixin gallary {
     width: calc(100% - 260px);
     height: 600px;

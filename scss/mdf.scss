@@ -149,10 +149,7 @@
         background-color: $primaryMdfColor;
 
         .mdf-hero__about-text {
-            width: 80%;
-            height: 100%;
-            margin: 0 auto;
-            text-align: center;
+            @include text();
 
             h3 {
                 font-size: 38px;
@@ -170,10 +167,7 @@
         background-color: $primaryMirrorColor;
 
         .mdf-hero__stuff-text {
-            width: 80%;
-            height: 100%;
-            margin: 0 auto;
-            text-align: center;
+            @include text();
 
             h3 {
                 font-size: 38px;

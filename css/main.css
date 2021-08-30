@@ -173,7 +173,7 @@
 }
 
 .mdf-hero .mdf-hero__about .mdf-hero__about-text {
-  width: 80%;
+  width: 70%;
   height: 100%;
   margin: 0 auto;
   text-align: center;
@@ -199,7 +199,7 @@
 }
 
 .mdf-hero .mdf-hero__stuff .mdf-hero__stuff-text {
-  width: 80%;
+  width: 70%;
   height: 100%;
   margin: 0 auto;
   text-align: center;
@@ -717,6 +717,19 @@
   color: #740634;
 }
 
+.closets-gallary .closets-gallary__slader {
+  height: 500px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.closets-gallary .closets-gallary__slader .closets-gallary__slade {
+  height: 500px;
+  width: 340px;
+  border: 2px solid #bbff00;
+  margin: 8px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -745,7 +758,7 @@ body {
 .app .box {
   flex: 1;
   height: 100%;
-  transition: .9s;
+  transition: .8s;
   background-position: center;
 }
 
@@ -805,5 +818,12 @@ body {
 
 .app .box h2 .box-ancor:hover {
   color: #740634;
+}
+
+@media all and (max-width: 600px) {
+  .app {
+    flex-direction: column;
+    background-size: 10%;
+  }
 }
 /*# sourceMappingURL=main.css.map */

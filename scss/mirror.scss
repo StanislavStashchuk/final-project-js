@@ -148,10 +148,7 @@
         background-color: $primaryMirrorColor;
         
         .mirror-hero__about-text {
-            width: 70%;
-            height: 100%;
-            margin: 0 auto;
-            text-align: center;
+            @include text();
 
             h3 {
                 font-size: 38px;
@@ -169,10 +166,7 @@
         background-color: $primaryClosetColor;
 
         .mirror-hero__stuff-text {
-            width: 70%;
-            height: 100%;
-            margin: 0 auto;
-            text-align: center;
+            @include text();
 
             h3 {
                 font-size: 38px;

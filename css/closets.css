@@ -228,4 +228,17 @@
   font-size: 38px;
   color: #740634;
 }
+
+.closets-gallary .closets-gallary__slader {
+  height: 500px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.closets-gallary .closets-gallary__slader .closets-gallary__slade {
+  height: 500px;
+  width: 340px;
+  border: 2px solid #bbff00;
+  margin: 8px;
+}
 /*# sourceMappingURL=closets.css.map */

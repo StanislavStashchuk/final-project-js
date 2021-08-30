@@ -29,7 +29,7 @@ body {
     .box {
         flex: 1;
         height: 100%;
-        transition: .9s;
+        transition: .8s;
         background-position: center;
         &:nth-child(1) {
             background-image: url('/img/kitchen.svg');
@@ -81,4 +81,11 @@ body {
             }
         }
     } 
+}
+
+@media all and(max-width: 600px) {
+    .app {
+        flex-direction: column;
+        background-size: 10%;
+    }
 }
